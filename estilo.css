@@ -53,7 +53,17 @@ body{
 .img-servicos{
 	width: 100px;
 	height: 100px;
+	transition: all 0.8s ease;
 }
+
+.img-servicos:hover{
+	width: 120px;
+	height: 120px;
+	transition: all 0.5s ease;
+
+}
+
+
 
 .img-consultoria{
 	width: 120px;
@@ -106,6 +116,9 @@ footer{
 	padding: 50px 0 20px 0;
 	position: relative;
 
+}
+.text-footer{
+	font-size: 80%;
 }
 
 .background-capa{
@@ -296,6 +309,19 @@ h1{
 	height: 250px;*/
 }
 
+.img-qs{
+	width: 200px;
+	height: 200px;
+	
+}
+
+.img-quem-somos{
+	width: 300px;
+	height: 300px;
+}
+
+
+
 .img-container{
 	padding: 5px 10px 5px 2.5px;
 	padding: 0 100px 0 0;
@@ -307,12 +333,18 @@ h1{
 .img-preto-branco{
 	filter:grayscale(100%);
 	-webkit-filter:grayscale(100%);
-	transition: 0.5s;
+	width: 300px;
+	height: 150px;	
+	transition: all 2s ease;
 }
 .img-preto-branco:hover{
 	filter:grayscale(0%);
 	-webkit-filter:grayscale(0%);
+	width: 310px;
+	height: 155px;	
+	transition: all 2s ease;
 }
+
 
 
 h2{
@@ -411,7 +443,19 @@ h3{
 	width: 70%;
 
 }
+.border-text{
+	border: 5px solid #59A1F7;
+	width: 10%;
+}
 
+.border-text-clientes{
+	border: 5px solid #59A1F7;
+	width: 5%;
+}
+
+.text-size{
+	font-size: 180%;
+}
 .img-icon{
 	width: 35px;
 	height:35px;
