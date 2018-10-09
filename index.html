@@ -29,11 +29,11 @@
       <nav>
        
 
-        <div id="myNavbar" class="navbar navbar-expand-md navbar-dark fixed-top mt-5">
+        <div id="myNavbar" class="navbar navbar-expand-md navbar-dark fixed-top ml-2">
         <!--Imagem logo jt-sistemas--> 
 
         <div >
-        <a id="logo" class="img-logo ml-5" href="#"></a>
+        <a id="logo" class="img-logo ml-2" href="#"></a>
         </div>
       
        
@@ -63,25 +63,17 @@
       
 </nav>
 
-
+ 
       <section class=" animated fadeIn img-capa">
         
       <!--Barra acima da Navbar-->
-        <div class="container">
-          <div class="row">
-              <div class="offset-md-9">
-              
-              <a href="#"><img src="imagens/icon-facebook.png" class="img-top mt-4 ml-3"></a>
-              <a href="#"><img src="imagens/icon-youtube.png" class="img-top mt-4 ml-3"></a>
-              <a href="#"><img src="imagens/icon-whats.png" class="img-top mt-4 ml-3"></a>
-              <a href="#"><img src="imagens/icon-email.png" class="img-top mt-4 ml-3"></a>
-              </div>
-          </div>
-        </div>
+       <!-- <div class="container"> <div class="row"> <div class="offset-md-9"> <a href="#"><img src="imagens/icon-facebook.png" class="img-top mt-4 ml-3"></a><a href="#"><img src="imagens/icon-youtube.png" class="img-top mt-4 ml-3"></a> <a href="#"><img src="imagens/icon-whats.png" class="img-top mt-4 ml-3"></a> <a href="#"><img src="imagens/icon-email.png" class="img-top mt-4 ml-3"></a> </div> </div> </div>-->
       
      
        <div style="width: 100%;"class=" text-center animated fadeIn  margin-bt  rounded mx-auto d-block">
-              <img class="animated fadeInLeftBig img-jt-sistemas img-fluid" src="imagens/jt-sistemas.png">  
+              <h2 class="text-white">Sistemas para Comércio e Indústria</h2><br>
+              <h4 class="text-white">Bons resultados dependem de boas ferramentas. Aqui você encontra qualidade e segurança.</h4>
+              <!--<img class="animated fadeInLeftBig img-jt-sistemas img-fluid" src="imagens/jt-sistemas.png"> --> 
                 <br><br>
               <div>
                 <a href="" class="animated zoomIn btn btn-custom btn-primary btn-lg">Sistemas NFE</a>
@@ -93,7 +85,7 @@
       </section>
 
 
-
+      <div><a href="http://bit.ly/2OzBU0j" class="circle-whats" target="_blank"></a></div>
 
       <section id="servicos" >
         <div class="container">
@@ -217,17 +209,28 @@
     <!--Rodapé-->
     <section id="rodape" class= "cor-rodape">
        <div class="container">
+        <div class="row">
+            <h3 data-aos="fade-right" class="col-md-12 text-center text-white font mt-5">NOSSAS MÍDIAS</h3>
+            <div data-aos="flip-left" class="border-text mx-auto"></div>
+        </div>
+
           <div class="row">
-            <div class="col-md-6 text-white text-center my-5">
-              <img class="img-icon img-fluid my-2" src="imagens/icon-marcador.png"><br>
-                <h5 class="text-white">
-                Rua: JT - Sistemas , 1234<br>
-                Rio de Janeiro - RJ
-                </h5>
+            <div class="col-md-3 text-white text-center my-5">
+              <a href="http://bit.ly/2OzBU0j" target="_blank"><img class="img-icon img-fluid my-2" src="imagens/icon-whats.png"><br>
+              <h5 class="text-white">
+               WhatsApp</h5></a>
             </div>
-            <div class="col-md-6 text-white text-center my-5">
-              <img class="img-icon img-fluid my-2" src="imagens/icon-email.png"><br>
-              <h5 class="text-white">jt-sistemas@hotmail.com</h5>
+            <div class="col-md-3 text-white text-center my-5">
+             <a href="https://www.facebook.com/jtsistema/" target="_blank"><img class="img-icon img-fluid my-2" src="imagens/icon-facebook.png"><br>
+              <h5 class="text-white">Facebook</h5></a>
+            </div>
+            <div class="col-md-3 text-white text-center my-5">
+              <a href="https://www.youtube.com/channel/UCsxnImXREg_GbF0jWpqnGpg" target="_blank"><img class="img-icon img-fluid my-2" src="imagens/icon-youtube.png"><br>
+              <h5 class="text-white">Youtube</h5></a>
+            </div>
+            <div class="col-md-3 text-white text-center my-5">
+              <a href=""><img class="img-icon img-fluid my-2" src="imagens/icon-email.png"><br>
+              <h5 class="text-white">comercial@jtsistemas.com.br</h5></a>
             </div>
           </div>
        </div>
@@ -306,11 +309,10 @@
 
        <div class="rounded mx-auto d-block border-footer my-5"></div>
 
-      <div class="text-white text-center text-footer text-secondary">
-        JT-Sistemas | Sempre em sintonia com a evolução tecnológica, 
-        oferecendo os melhores produtos, serviços e softwares.<br>
-        Av. Rio de Janeiro, 0000, Centro, Rio de Janeiro - RJ<br>
-        Tel.: (21) 0000-0000 | SAC 0800 000 0000 | contato@jtsistemas.com.br<br>
+      <div class="text-center text-footer">
+        <span class="text-logo-footer">JT-Sistemas </span>| Sistemas para comércio e indústria, Bons resultados dependem de boas ferramentas. Aqui você encontra qualidade e segurança..<br>
+        comercial@jtsistemas.com.br<br>
+        Tel.: (21) 0000-0000 
 
       </div>
 
@@ -339,16 +341,16 @@ function myFunction() {
 
 var logo = document.getElementById("logo");
 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        logo.className = "img-logo2 ml-5";
+        logo.className = "img-logo2 ml-2";
     } else {
-        logo.className = logo.className.replace("img-logo2 ml-5", "img-logo ml-5");
+        logo.className = logo.className.replace("img-logo2 ml-2", "img-logo ml-2");
 }
 
 var navbar = document.getElementById("myNavbar");
 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         navbar.className = "navbar" + " animated" + " fadeInDown" + " navbar-expand-md" + " navbar-dark" + " fixed-top" + " navbar-color text-white shadow";
     } else {
-        navbar.className = navbar.className.replace("navbar animated fadeInDown navbar-expand-md navbar-dark fixed-top navbar-color text-white shadow", " navbar animated fadeIn navbar-expand-md navbar-dark fixed-top my-5");
+        navbar.className = navbar.className.replace("navbar animated fadeInDown navbar-expand-md navbar-dark fixed-top navbar-color text-white shadow", " navbar animated fadeIn navbar-expand-md navbar-dark fixed-top ml-2");
     }
 }
 
