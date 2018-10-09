@@ -139,6 +139,7 @@ footer{
     height: 50px;
   	background: url(imagens/icon-flutuante-whats.png) center no-repeat; 
   	background-size: 45px;
+  	z-index: 15;
 
 }
 /*
