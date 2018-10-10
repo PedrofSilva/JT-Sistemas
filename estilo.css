@@ -145,8 +145,8 @@ footer{
 .text-icon-flutuante{
 	position: fixed;
 	bottom: 40px;
-	right: 18px;
-    width: 100px;
+	right: 8px;
+    width: 120px;
     height: 50px;
   	background-size: 45px;
   	z-index: 20;
@@ -178,6 +178,7 @@ footer{
 	background: transparent;
 	/*background: radial-gradient(black, gray, black);*/
 }
+
 
 .marcador{
 	border: 1px solid red;
@@ -342,6 +343,11 @@ h1{
 }
 
 #servicos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#quem-somos{
 	background: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -709,3 +715,12 @@ h3{
     opacity: 0.3;
   }
 }
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;}
+	
+
