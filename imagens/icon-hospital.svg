@@ -1,1 +1,30 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 24 24" height="24px" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M23,8h-4V1c0-0.6-0.7-1-1.2-1h-12C5.2,0,5,0.4,5,1v7H1C0.4,8,0,8.4,0,9v15h24V9C24,8.4,23.6,8,23,8z M14,22h-4v-4h4V22z    M22,22h-7v-5H9v5H2V10h5V2h10v8h5V22z"/><rect height="2" width="2" x="13" y="13"/><rect height="2" width="2" x="9" y="13"/><rect height="2" width="2" x="5" y="13"/><rect height="2" width="2" x="17" y="13"/><rect height="2" width="2" x="17" y="17"/><rect height="2" width="2" x="5" y="17"/><polygon points="13,4 11,4 11,6 9,6 9,8 11,8 11,10 13,10 13,8 15,8 15,6 13,6  "/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 24 24">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#408CCF}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3137546940976">
+   <g>
+    <path class="fil0" d="M18270.54 12024.42l-2825.58 0 0 -4944.96c0,-423.72 -494.47,-706.46 -847.7,-706.46l-8477 0c-423.98,0 -565.22,282.48 -565.22,706.46l0 4944.96 -2825.58 0c-423.98,0 -706.46,282.48 -706.46,706.2l0 10596.11 16954 0.27 0 -10596.38c0,-423.72 -282.48,-706.2 -706.46,-706.2zm-6357.62 9889.66l-2825.84 0 0 -2825.58 2825.84 0 0 2825.58zm5651.16 0l-4944.96 0 0 -3532.04 -4238.5 0 0 3532.04 -4944.7 0 0 -8477 3532.04 0 0 -5651.16 7064.08 0 0 5651.42 3532.04 -0.26 0 8477z"/>
+    <rect class="fil0" x="11206.46" y="15556.46" width="1412.92" height="1412.92"/>
+    <rect class="fil0" x="8380.62" y="15556.46" width="1412.92" height="1412.92"/>
+    <rect class="fil0" x="5555.04" y="15556.46" width="1412.92" height="1412.92"/>
+    <rect class="fil0" x="14032.04" y="15556.46" width="1412.92" height="1412.92"/>
+    <rect class="fil0" x="14032.04" y="18382.04" width="1412.92" height="1412.92"/>
+    <rect class="fil0" x="5555.04" y="18382.04" width="1412.92" height="1412.92"/>
+    <polygon class="fil0" points="11206.46,9198.58 9793.54,9198.58 9793.54,10611.5 8380.62,10611.5 8380.62,12024.42 9793.54,12024.42 9793.54,13437.08 11206.46,13437.08 11206.46,12024.42 12619.12,12024.42 12619.12,10611.5 11206.46,10611.5 "/>
+   </g>
+  </g>
+ </g>
+</svg>

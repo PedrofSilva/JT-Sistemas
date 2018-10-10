@@ -1,1 +1,23 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M112,400h288V208H112V400z M224,240h64c8.8,0,16,7.2,16,16s-7.2,16-16,16h-64c-8.8,0-16-7.2-16-16S215.2,240,224,240z"/><polygon points="96,112 96,192 112,192 400,192 416,192 416,112  "/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#408CCF}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3137791275136">
+   <g>
+    <path class="fil0" d="M2880 23316.66l15240 0 0 -11288.88 -15240 0 0 11288.88zm5926.66 -9407.39l3386.68 0c465.66,0 846.66,423.33 846.66,940.73 0,517.4 -381,940.73 -846.66,940.73l-3386.68 0c-465.66,0 -846.66,-423.33 -846.66,-940.73 0,-517.4 381,-940.73 846.66,-940.73z"/>
+    <polygon class="fil0" points="2033.34,6383.34 2033.34,11087.05 2880,11087.05 18120,11087.05 18966.66,11087.05 18966.66,6383.34 "/>
+   </g>
+  </g>
+ </g>
+</svg>
