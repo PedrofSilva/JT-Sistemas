@@ -343,16 +343,19 @@ h1{
 }
 
 #servicos{
-	background: white;
+	background-color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 #quem-somos{
-	background: white;
+	background-color: white;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
+.quem-somos1{
+	bacgrou
+}
 #recursos{
 	
 	padding-top: 20px;
