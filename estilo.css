@@ -150,6 +150,7 @@ footer{
     height: 50px;
   	background-size: 45px;
   	z-index: 20;
+  	text-decoration-color: green;
 }
 
 /*
@@ -379,8 +380,8 @@ h1{
 }
 
 .img-quem-somos{
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 }
 
 
@@ -521,7 +522,7 @@ h3{
 }
 
 .text-size{
-	font-size: 180%;
+	font-size: 100%;
 }
 .img-icon{
 	width: 35px;
@@ -658,6 +659,11 @@ h3{
 }
 
 */
+.img-clientes{
+	width: 300px;
+	height: 100px;
+}
+
 .img-comunidade-principal{
 	z-index: 2;
 }
