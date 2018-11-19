@@ -59,18 +59,15 @@
         </button>
 
         <div class=" collapse navbar-collapse" id="navbarCollapse">
-          <ul class=" navbar-nav ml-auto mr-5">
-            <li class="nav-item"><a class="nav-link" class="scroll"  href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" class="scroll" href="#quem-somos">Quem Somos</a></li>
-            <li class="nav-item"><a class="nav-link" class="scroll" href="#servicos">Servicos</a></li>
-            
-            <li class="nav-item"><a class="nav-link" class="scroll" href="#rodape">Fale Conosco</a></li>
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item "><a class="ml-4 nav-link text-center" class="scroll"  href="#home">Home</a></li>
+            <li class="nav-item "><a class="ml-4 nav-link text-center" class="scroll" href="#quem-somos">Quem Somos</a></li>
+            <li class="nav-item "><a class="ml-4 nav-link text-center" class="scroll" href="#servicos">Serviços</a></li>
+            <li class="nav-item "><a class="ml-4 nav-link text-center" class="scroll" href="#rodape">Fale Conosco</a></li>
            
             
           </ul>
-         
-         </div>
-        
+        </div>
      </div>   
       
 </nav>
@@ -437,74 +434,7 @@
         </div>
     </div>
 </section>
-			
-			
-<!--    
-            <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste1.png" class="img-clientes img-fluid rounded mx-auto d-block">
-                      
-                  </div>
-               
-              </div> 
 
-    
-            <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste2.png" class="img-clientes img-fluid  rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div> 
-
-    
-            <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste3.png" class="img-clientes img-fluid rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div>
-              <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste4.png" class="img-clientes img-fluid rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div>
-
-              <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste5.jpeg" class="img-clientes img-fluid rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div>
-              <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste6.png" class="img-clientes img-fluid rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div>
-              <div class="col-6 col-md-4 mt-3">      
-              
-                <div >
-                    <img src="imagens/teste7.png" class="img-clientes img-fluid rounded mx-auto d-block">
-                     
-                  </div>
-                
-              </div>
-
-            </div> -->
-          
-          </div>
         
       <br><br><br>
       </section>
@@ -565,8 +495,8 @@
        AOS.init({
         duration: 1000
        }
-        
-        );
+ );
+
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
@@ -574,19 +504,18 @@ function myFunction() {
 
 var logo = document.getElementById("logo");
 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        logo.className = "img-logo2 ml-2";
+        logo.className = "img-logo2 ml-5";
     } else {
-        logo.className = logo.className.replace("img-logo2 ml-2", "img-logo ml-2");
+        logo.className = logo.className.replace("img-logo2 ml-5", "img-logo ml-5");
 }
 
 var navbar = document.getElementById("myNavbar");
 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         navbar.className = "navbar" + " animated" + " fadeInDown" + " navbar-expand-md" + " navbar-dark" + " fixed-top" + " navbar-color text-white shadow";
     } else {
-        navbar.className = navbar.className.replace("navbar animated fadeInDown navbar-expand-md navbar-dark fixed-top navbar-color text-white shadow", " navbar animated fadeIn navbar-expand-md navbar-dark fixed-top ml-2");
+        navbar.className = navbar.className.replace("navbar animated fadeInDown navbar-expand-md navbar-dark fixed-top navbar-color text-white shadow", " navbar animated fadeIn navbar-expand-md navbar-dark fixed-top");
     }
 }
-
 (function(){
 var $target = $('.anime'),
     animationClass = 'slide-in-top',
@@ -613,25 +542,29 @@ $(document).scroll(function(){
 })
 }())
 
+(function(){
+var $target = $('.anime'),
+    animationClass = 'slide-in-top',
+    offset = $(window).height()* 3/4;
+function animeScroll(){
+  var documentTop = $(document).scrollTop();
+  
+  $target.each(function(){
+    var itemTop = $(this).offset().top;
+    if(documentTop > itemTop - offset){
+      $(this).addClass(animationClass);
+    } else {
+      $(this).removeClass(animationClass);
+    }
+ })
+} 
+animeScroll();
 
-
-
-
-
-
+$(document).scroll(function(){
+  animeScroll();
+})
+}())
     </script>
-    <script>
-
-
-
-
-</script>
-
- 
-  
-  
-  
- 
   
   <script src="assets/theme/js/script.js"></script>
   </body>
